@@ -1,4 +1,7 @@
 # DuckDuckGo Search API Client
+![TypeScript](https://img.shields.io/badge/TypeScript-deepskyblue)
+![Node.js](https://img.shields.io/badge/Node.js-green)
+![Jest](https://img.shields.io/badge/Jest-maroon)
 
 TypeScript integration with the [DuckDuckGo Instant Answer API](https://api.duckduckgo.com/).  
 Queries the DuckDuckGo Instant Answer API and returns structured results. Includes strong typing, input validation, error handling, and Jest tests.
@@ -24,6 +27,7 @@ This project emphasizes:
 
 ## Project Structure
 
+```plaintext
 .
 ├── routes/
 │ └── search.ts
@@ -34,6 +38,7 @@ This project emphasizes:
 ├── tests/
 │ └── search.test.ts
 ├── index.ts
+```
 
 ### `types/` Directory
 
@@ -73,8 +78,10 @@ console.log(results.Abstract);
 
 ## Run Tests
 
+```bash
 npm install
 npm test
+```
 
 ---
 
