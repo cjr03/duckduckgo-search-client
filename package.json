@@ -1,0 +1,22 @@
+{
+  "name": "duckduckgo-search-client",
+  "version": "1.0.0",
+  "description": "Queries the DuckDuckGo Instant Answer API and returns structured results. Includes strong typing, input validation, error handling, and Jest tests.",
+  "main": "index.ts",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "build": "tsc"
+  },
+  "author": "Cole Roberts",
+  "license": "MIT",
+  "type": "module",
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "@types/node": "^20.10.6",
+    "globals": "^16.3.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.4.1",
+    "typescript": "^5.9.2"
+  }
+}
